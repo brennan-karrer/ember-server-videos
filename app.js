@@ -2,8 +2,7 @@ var express = require('express');
 var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
 var path = require('path');
-
-var api = require('./routes/api');
+var api = require('./routes/api/index.js');
 
 var port = 3000;
 
