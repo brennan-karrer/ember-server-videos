@@ -12,7 +12,7 @@ router.get('/', function(req, res, next) {
       if (err) {
         console.error('Error retrieving videos due to: ' + err);
       } else {
-        res.json(videos);
+        res.json({ videos: videos });
       }
     });
 });
